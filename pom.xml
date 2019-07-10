@@ -44,12 +44,12 @@
     <repository>
         <id>deployment</id>
         <name>release softx</name>
-        <url>http://localhost:8081</url>
+        <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
         <id>deployment</id>
         <name>snapshot softx</name>
-        <url>http://localhost:8081</url>
+        <url>http://localhost:8081/repository/maven-releasessnap/</url>
     </snapshotRepository>
 </distributionManagement>
 
